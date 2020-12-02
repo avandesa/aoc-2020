@@ -11,8 +11,8 @@ pub fn benchmark(c: &mut Criterion) {
         .map(|line| line.unwrap().parse().unwrap())
         .collect();
 
-    c.bench_function("part1", |b| b.iter(|| part1(&input)));
-    c.bench_function("part2", |b| b.iter(|| part2(&input)));
+    c.bench_function("Day 01 Part 1", |b| b.iter(|| part1(&input)));
+    c.bench_function("Day 01 Part 2", |b| b.iter(|| part2(&input)));
 }
 
 criterion_group!(benches, benchmark);

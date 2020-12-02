@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Alex van de Sandt <alex@avandesa.dev>"]
 edition = "2018"
 
+[dependencies]
+lazy_static = "1.4.0"
+regex = "1.4.2"
+
 [dev-dependencies]
 criterion = "0.3.3"
 
@@ -13,6 +17,9 @@ test = false
 bench = false
 
 [[bench]]
-name = "benchmark"
+name = "day-01"
 harness = false
 
+[[bench]]
+name = "day-02"
+harness = false
