@@ -1,0 +1,18 @@
+[package]
+name = "aoc-2020"
+version = "0.1.0"
+authors = ["Alex van de Sandt <alex@avandesa.dev>"]
+edition = "2018"
+
+[dev-dependencies]
+criterion = "0.3.3"
+
+[[bin]]
+name = "day-01"
+test = false
+bench = false
+
+[[bench]]
+name = "benchmark"
+harness = false
+
