@@ -11,15 +11,14 @@ regex = "1.4.2"
 [dev-dependencies]
 criterion = "0.3.3"
 
-[[bin]]
-name = "day-01"
-test = false
-bench = false
-
 [[bench]]
 name = "day-01"
 harness = false
 
 [[bench]]
 name = "day-02"
+harness = false
+
+[[bench]]
+name = "day-03"
 harness = false
